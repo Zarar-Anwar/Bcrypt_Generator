@@ -1,0 +1,35 @@
+.header{
+    color:green;
+}
+label{
+    color: green;
+}
+
+.label{
+    color:green;
+    font-size: 50px;
+}
+
+
+input{
+    border:2px solid green;
+    background-color: rgb(197, 194, 194);
+}
+#input1{
+    border:2px solid green;
+    background-color: rgb(197, 194, 194);
+    width:450px;
+}
+
+#text1{
+    border:2px solid green;
+    background-color: rgb(197, 194, 194);
+    width:450px;
+    height:100px;
+}
+
+#numID{
+    border:2px solid green;
+    background-color: rgb(197, 194, 194);
+    width:10%;
+}

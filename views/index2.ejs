@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css ">
+    <link rel="stylesheet" href="css/all.css ">
+    <link rel="stylesheet" href="css/style.css ">
+    <title>Bcrypt</title>
+</head>
+<body class="bg-dark">
+    <header class="col-sm-12 mt-5 text-center header">
+        <h1 >BCRYPT GENERATOR</h1>
+    </header>
+    <div class="container text-center">
+        <div class="row">
+            <form method="post" action="/">
+
+                <div class="col-sm-12 mt-5">
+                    <label class="label d-inline" for="text">Enter's Your Data</label><br>
+                    <input type="text" name="text" id="input1" required placeholder="Enter....." value="<%=text%>">
+                </div>
+                <div>
+                    <label for="number" class="label">Select Differenece</label><br>
+                    <input type="number" name="number" id="number" value="<%=number%>" required>
+                </div>
+                <div> 
+                    <label class="label" for="text">Encrypted</label><br>
+                    <input type="text" name="Encrypted" id="text1" placeholder="Enter....." value="<%=encrypt%>">
+                </div>
+                <button class="btn btn-success mt-5" type="submit">Hash</button>
+            </form>
+            </div>
+        </div>
+
+
+    <script src="javascript/all.js"></script>
+    <script src="javascript/bootstrap.js"></script>
+</body>
+</html>
